@@ -17,5 +17,5 @@ Privacy Policy
 Support  
 [`/support.md`](/support.md)
 
-Data Deletion
+Data Deletion  
 [`/data-deletion.md`](/data-deletion.md)
