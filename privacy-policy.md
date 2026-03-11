@@ -21,6 +21,6 @@ or data synchronization. If such features are added, this Privacy Policy will be
 updated accordingly.
 
 If you have any questions regarding this Privacy Policy, please contact:  
-**artem.kalinovskyy@gmail.com**
+[skaterprogress.app@gmail.com](mailto:skaterprogress.app@gmail.com)
 
 _Last updated: February 2026_
