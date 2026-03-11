@@ -12,7 +12,7 @@ The app allows skaters and parents to:
 ## Links
 
 Privacy Policy  
-/privacy-policy
+[`/privacy-policy.md`](/privacy-policy.md)
 
 Support  
-/support
+[`/support.md`](/support.md)
