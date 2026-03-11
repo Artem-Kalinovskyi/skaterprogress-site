@@ -2,7 +2,7 @@
 
 If you have questions or issues using SkaterProgress, please contact:
 
-artem.kalinovskyy@gmail.com
+[skaterprogress.app@gmail.com](mailto:skaterprogress.app@gmail.com)
 
 We will respond as soon as possible.
 
