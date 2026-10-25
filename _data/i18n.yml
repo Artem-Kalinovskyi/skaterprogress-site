@@ -1,0 +1,28 @@
+en:
+  home_url: /
+  privacy_url: /privacy-policy.html
+  terms_url: /terms-of-use.html
+  support_url: /support.html
+  deletion_url: /data-deletion.html
+  privacy: Privacy
+  terms: Terms
+  support: Support
+  deletion: Data deletion
+  switch_label: Українська
+  switch_short: UA
+  tagline: Figure skating progress tracker
+  rights: Made in Ukraine by Artem Kalinovskyi
+uk:
+  home_url: /index-uk.html
+  privacy_url: /privacy-policy-uk.html
+  terms_url: /terms-of-use-uk.html
+  support_url: /support-uk.html
+  deletion_url: /data-deletion-uk.html
+  privacy: Конфіденційність
+  terms: Умови
+  support: Підтримка
+  deletion: Видалення даних
+  switch_label: English
+  switch_short: EN
+  tagline: Трекер прогресу у фігурному катанні
+  rights: Зроблено в Україні · Артем Каліновський

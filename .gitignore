@@ -1,0 +1,12 @@
+# IDE (Android Studio / IntelliJ)
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Jekyll local build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/

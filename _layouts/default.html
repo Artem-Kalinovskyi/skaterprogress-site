@@ -1,0 +1,64 @@
+<!doctype html>
+{% assign t = site.data.i18n[page.lang] %}
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/icon.png' | relative_url }}">
+  <link rel="alternate" hreflang="{% if page.lang == 'uk' %}en{% else %}uk{% endif %}" href="{{ page.alt | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="{{ t.home_url | relative_url }}">
+        <img src="{{ '/assets/icon.png' | relative_url }}" alt="" width="36" height="36">
+        <span>SkaterProgress</span>
+      </a>
+      <nav class="nav">
+        <a href="{{ t.privacy_url | relative_url }}">{{ t.privacy }}</a>
+        <a href="{{ t.terms_url | relative_url }}">{{ t.terms }}</a>
+        <a href="{{ t.support_url | relative_url }}">{{ t.support }}</a>
+        <a class="lang" href="{{ page.alt | relative_url }}" hreflang="{% if page.lang == 'uk' %}en{% else %}uk{% endif %}" title="{{ t.switch_label }}">{{ t.switch_short }}</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {% if page.home %}
+    {{ content }}
+    {% else %}
+    <div class="wrap">
+      <article class="doc">
+        {{ content }}
+      </article>
+    </div>
+    {% endif %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <div class="footer-brand">
+        <img src="{{ '/assets/icon.png' | relative_url }}" alt="" width="28" height="28">
+        <div>
+          <strong>SkaterProgress</strong>
+          <span>{{ t.tagline }}</span>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <a href="{{ t.privacy_url | relative_url }}">{{ t.privacy }}</a>
+        <a href="{{ t.terms_url | relative_url }}">{{ t.terms }}</a>
+        <a href="{{ t.support_url | relative_url }}">{{ t.support }}</a>
+        <a href="{{ t.deletion_url | relative_url }}">{{ t.deletion }}</a>
+        <a href="mailto:skaterprogress.app@gmail.com">skaterprogress.app@gmail.com</a>
+      </nav>
+      <p class="footer-note">© 2026 · {{ t.rights }}</p>
+    </div>
+  </footer>
+</body>
+</html>
